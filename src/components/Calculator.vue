@@ -91,13 +91,15 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+  @import '../sass/variables.sass'
+
   .calculator
     display: grid
     grid-template: 1fr repeat(5, 48px) / repeat(4, 25%)
     padding: 2px
     height: 330px
     width: 263px
-    background: #fff7
-    border: 1px solid #0007
+    background: $color-white-seven
+    border: $border
     overflow: hidden
 </style>

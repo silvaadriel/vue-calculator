@@ -16,12 +16,14 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+  @import './sass/variables.sass'
+
   #app
     display: flex
     justify-content: center
     align-items: center
     height: 100vh
-    background: linear-gradient(120deg, #3FB37F, #33475B )
+    background: $bg-gradient
 
   h1
     color: #fff7

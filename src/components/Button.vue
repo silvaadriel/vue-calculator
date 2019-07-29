@@ -20,6 +20,8 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+  @import '../sass/variables.sass'
+
   .button
     border: none
     outline: none
@@ -30,21 +32,21 @@ export default {
     margin: 1px
 
     &:active
-      background: #fff5
+      background: $color-white-five
 
     &.flat
       font-weight: normal
-      background: #fff9
+      background: $color-white-nine
 
     &.flat:active
-      background: #fff5
+      background: $color-white-five
 
     &.operation
       font-weight: normal
-      background: #fff9
+      background: $color-white-nine
 
     &.operation:active
-      background: #1483DA
+      background: $color-blue
       color: white
 
     &.double
