@@ -1,15 +1,20 @@
 <template>
-  <button class="button">{{ label }}</button>
+  <button class="button" :class="{ operation, double, flat }">
+    {{ label }}
+  </button>
 </template>
 
 <script>
 export default {
-  name: "Button",
+  name: 'Button',
   props: {
     label: {
-      type: String
-    }
-  }
+      type: String,
+    },
+    operation: { type: Boolean },
+    double: { type: Boolean },
+    flat: { type: Boolean },
+  },
 };
 </script>
 
@@ -26,11 +31,21 @@ export default {
     &:active
       background: #fff5
 
+    &.flat
+      font-weight: normal
+      background: #fff9
+
+    &.flat:active
+      background: #fff5
+
     &.operation
       font-weight: normal
       background: #fff9
 
     &.operation:active
-      background: #fff5
-</style>
+      background: #1483DA
+      color: white
 
+    &.double
+      grid-column: span 2
+</style>
