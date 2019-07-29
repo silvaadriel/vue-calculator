@@ -99,4 +99,5 @@ export default {
     width: 263px
     background: #fff7
     border: 1px solid #0007
+    overflow: hidden
 </style>
