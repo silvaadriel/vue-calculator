@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h1>Vue Calculator</h1>
     <Calculator />
   </div>
 </template>
@@ -15,6 +16,11 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+  h1
+    color: #fff7
+    font-size: 3em
+    margin-right: 80px
+
   #app
     display: flex
     justify-content: center
