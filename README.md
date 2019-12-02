@@ -1,4 +1,6 @@
-# vue-calculator
+# Vue Calculator
+
+Preview: https://silvaadriel.github.io/vue-calculator/
 
 ## Project setup
 ```
