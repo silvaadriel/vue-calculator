@@ -1,5 +1,7 @@
 # Vue Calculator
 
+Project created for academic purposes.
+
 Preview: https://silvaadriel.github.io/vue-calculator/
 
 ## Project setup
